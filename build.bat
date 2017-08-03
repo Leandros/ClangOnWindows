@@ -17,7 +17,7 @@ set "PATH=%PATH%;%LLVMPath%\bin;%VSPath%\VC\bin\amd64"
 
 :: Compiler Flags
 set CFLAGS= ^
- -std=c++14 -Wall -Wextra -Wvla
+ -std=c++14 -Wall -Wextra
 
 set CPPFLAGS= ^
   -I "%VSPath%\include" ^
